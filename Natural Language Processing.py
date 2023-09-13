@@ -47,9 +47,8 @@ Y_pred = classifier.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(Y_test,Y_pred)
 cm
-obj = ['nice place and great food']
+obj = [input('Enter your review here : \n')]
 obj1 = cv.transform(obj).toarray()
 classifier.predict(obj1)
-(103+70)/250
 # NTUSD-SIN
 # NTUSD
